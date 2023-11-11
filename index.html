@@ -64,9 +64,9 @@
     </tbody>
    </table> 
     </div>
-    <div class="project" id="PROJECTS">
+    <div class="project" id="PROJECT">
         <br>
-        <h1>SKILLS & PROJECT</h1>
+        <h1>SKILLS & PROJECTS</h1>
         <BR>
             <div class="skills" >
                 <h2>Skills</h2>
@@ -85,6 +85,7 @@
                   </li>
                 </ul>
             </div>
+            <br><br>
             <div class="projects" >
                 <h2>Projects</h2>
                 <ul>
@@ -114,6 +115,41 @@
             <h3>Vishwa AB</h3>
             <h3>Davangere</h3>
             <h3>1357628628</h3>
+            <form action="mailto:abvishwa0745@gamil.com">
+              <table>
+                <tr>
+                  <td>
+                    <label for="siubject">Name</label>
+                  </td>
+                  <td>
+                    <input type="text" name="subject" placeholder="name"> 
+                  </td>
+                  </tr>
+                  <tr>
+                
+                  <td>
+                    <label for="phno">Phone number</label>
+                  </td>
+                  <td>
+                    <input type="text" name="phno"><br>
+                  </td>
+                  </tr>
+                 <tr> 
+                  <td>
+                    <label for="msg">Message</label>
+                  </td>
+                  <td>
+                    <textarea name="body"></textarea><br>
+                  </td>
+                  </tr>
+                  <td></td>
+                
+                  <td>
+                    <button type="submit">Send</button>
+                  </td>
+                </tr>
+              </table>
+          </form>
         </div>
 
 </body>
@@ -153,19 +189,21 @@
    }
    .project{
     height: 200vh;
-    text-align: justify;
+    text-align: left;
     background-color: khaki;
    }
    .skills{
     padding: 0px 200px;
+    text-align: left;
    }
    .projects{
     padding:0px 100px ;
+    text-align: left;
     
    }
    .contact{
     text-align: center;
-    height: 50vh;
+    height: 100vh;
    }
    nav{
     position: fixed;
@@ -175,4 +213,28 @@
    a{
     text-decoration: none;
    }
-</style>
+   .contact table{
+    margin: auto;
+    text-align: left;
+   }
+   .contact button{
+    padding: 10px 30px;
+    background-color: aqua;
+    border: none;
+     border-radius: 5px;
+   }
+   .contact button:hover{
+    background-color: bisque;
+   }
+   @media(max width:600px)
+   
+   
+
+
+   
+    
+   
+
+   
+  
+   
